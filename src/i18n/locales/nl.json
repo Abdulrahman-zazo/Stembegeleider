@@ -1,0 +1,295 @@
+{
+  "header": {
+    "title": "Gids voor Gemeenteraadsverkiezingen",
+    "menu": "Menu",
+    "language": "Taal"
+  },
+  "welcome": {
+    "attribution": "Deze site is een vertaling van",
+    "visitOriginal": "Bezoek de originele site"
+  },
+  "nav": {
+    "section1": "Welkom",
+    "section2": "Brief in de bus",
+    "section3": "Naar stembureau",
+    "section4": "Op stembureau",
+    "section5": "In stemhokje",
+    "section6": "Bij stembus",
+    "section7": "Je hebt gestemd"
+  },
+  "sections": {
+    "welcome": {
+      "title": "Gemeenteraads verkiezingen",
+      "description": "woensdag 18 maart 2026\nWelkom terug. Leuk dat je er weer bent.",
+      "attribution": "Deze site is een vertaling van",
+      "visitOriginal": "Bezoek de originele site",
+      "button": "GA VERDER"
+    },
+    "brief": {
+      "title": "BRIEF IN DE BUS WAAROM?",
+      "description": "Mag je stemmen? Dan krijg je een paar weken voor de verkiezing een stempas. Hierop vind je informatie over waar en hoe laat je kunt stemmen.\nMisschien kun je die dag niet. Dan kun je op de achterkant van de stempas iemand anders machtigen om voor jou te stemmen.\nEen paar dagen voor de verkiezing krijg je via de post ook een kandidatenlijst. Op deze lijst staan alle partijen en mensen op wie je kunt stemmen.",
+      "button": "DOE",
+      "doe": {
+        "title": "Wanneer en waar kan je stemmen?",
+        "questions": [
+          {
+            "question": "Wanneer kan je stemmen?",
+            "options": [
+              "Tijdens kantooruren: tussen 9.00 uur en 17.00 uur.",
+              "Tussen 7.30 uur en 21.00 uur.",
+              "Dat kan 24 uur per dag."
+            ],
+            "correct": 1,
+            "explanation": "De stemlokalen zijn open van 7.30 tot 21.00 uur."
+          },
+          {
+            "question": "Waar kan je stemmen?",
+            "options": [
+              "Alleen in het dichtstbijzijnde stembureau.",
+              "Alleen in het gemeentehuis.",
+              "Bij alle stembureaus in de gemeente waar ik woon."
+            ],
+            "correct": 2,
+            "explanation": "Je mag stemmen in elk stembureau in je gemeente."
+          }
+        ]
+      },
+      "buttons": {
+        "machtigen": {
+          "label": "Machtigen",
+          "title": "Iemand anders machtigen",
+          "content": "<p><strong>Iemand anders machtigen</strong></p><p>Je mag ook iemand anders voor jou laten stemmen. Bijvoorbeeld als je ziek bent of op vakantie bent. Je vult dan samen de achterkant van jouw stempas in.</p><p>De persoon die namens jou gaat stemmen moet <em>jouw stempas</em> én een kopie van <em>jouw identiteitsbewijs</em> meenemen naar het stembureau.</p>"
+        },
+        "magIkStemmen": {
+          "label": "Mag ik stemmen",
+          "title": "Mag ik stemmen?",
+          "content": "<p><strong>Je mag stemmen als je:</strong></p><ul><li>De Nederlandse nationaliteit hebt, de nationaliteit van een andere lidstaat van de Europese Unie hebt óf al 5 jaar in Nederland woont.</li><li>In de gemeente woont waar je wilt gaan stemmen.</li><li>18 jaar of ouder bent.</li></ul>"
+        },
+        "geenStempas": {
+          "label": "Geen stempas",
+          "title": "Geen stempas",
+          "content": "<p><strong>Contact opnemen</strong></p><p>Geen stempas gekregen of je stempas kwijtgeraakt? Dan moet je contact opnemen met je gemeente.</p><p>Op de website van je gemeente staat hoe je dit het beste kunt doen.</p>"
+        },
+        "inHetKort": {
+          "label": "IN HET KORT",
+          "title": "In het kort",
+          "content": "<p><strong>Hoe zit het ook alweer?</strong></p><p>Als je mag stemmen stuurt de gemeente je een <em>stempas</em>. Deze heb je nodig om te stemmen. Op de stempas vind je ook veel handige informatie.</p><p>Je krijgt ook een <em>kandidatenlijst</em>. Hierop staan alle partijen en mensen op wie je kunt stemmen.</p>"
+        }
+      }
+    },
+    "naarStembureau": {
+      "title": "Naar het stembureau. Hoe dan?",
+      "description": "Om te kunnen stemmen moet je twee dingen meenemen. Je mag ook van alles meenemen dat je niet nodig hebt. Maar sommige dingen mag je niet meenemen.",
+      "button": "DOE",
+      "doe": {
+        "title": "Wat heb je nodig om te kunnen stemmen?",
+        "items": {
+          "stempas": "Stempas",
+          "paspoort": "Paspoort",
+          "rijbewijs": "Rijbewijs",
+          "kandidatenlijst": "Kandidatenlijst",
+          "appel": "Appel",
+          "lippenstift": "Lippenstift",
+          "poster": "Verkiezingsposter"
+        }
+      },
+      "buttons": {
+        "identiteitsbewijs": {
+          "label": "Identiteitsbewijs?",
+          "title": "Identiteitsbewijs",
+          "content": "<p><strong>Wat is dat?</strong></p><p>Een identiteitsbewijs is je paspoort, rijbewijs, identiteitskaart of vreemdelingendocument. Deze mag maximaal 5 jaar verlopen zijn.</p>"
+        },
+        "kandidatenlijst": {
+          "label": "Kandidatenlijst",
+          "title": "Kandidatenlijst",
+          "content": "<p><strong>Moet ik deze meenemen?</strong></p><p>Mag. Hoeft niet. Deze heb je niet nodig om te stemmen. Op het stembureau hangt een grote kandidatenlijst om te bekijken!</p>"
+        },
+        "kindMee": {
+          "label": "Kind mee?",
+          "title": "Kind meenemen",
+          "content": "<p><strong>Kan ik mijn kind meenemen?</strong></p><p>Je mag je baby of kind meenemen, <em>maar</em> je moet in je eentje het stemhokje in. Alleen hele jonge kinderen mogen mee het hokje in.</p>"
+        },
+        "vreemdelingendocument": {
+          "label": "Vreemdelingendocument",
+          "title": "Vreemdelingendocument",
+          "content": "<p><strong>Is die geldig?</strong></p><p>Heb je <em>wel</em> de Nederlandse nationaliteit, maar nog <em>geen</em> identiteitsbewijs of paspoort? Dan mag je ook stemmen met een vreemdelingendocument van de IND.</p>"
+        },
+        "inHetKort2": {
+          "label": "In het kort",
+          "title": "Wat neem je mee?",
+          "content": "<p><strong>Wat neem je mee?</strong></p><ul><li>Je stempas.</li><li><em>Eén</em> identiteitsbewijs. Dus je paspoort, rijbewijs, identiteitskaart of vreemdelingendocument.</li></ul>"
+        }
+      }
+    },
+    "opStembureau": {
+      "title": "Op het stembureau. Wat doe je?",
+      "description": "Op het stembureau gaat het gebeuren. Stemmen! Hier moet je je stempas en identiteitsbewijs laten zien. Dan krijg je een stembiljet.",
+      "buttons": {
+        "ikBenGemachtigd": {
+          "label": "Ik ben gemachtigd",
+          "title": "Gemachtigd stemmen",
+          "content": "<p><strong>Wat als ik door iemand ben gemachtigd?</strong></p><p>Als je door iemand gemachtigd bent om voor die persoon te stemmen, lever je ook <em>de stempas</em> in van die persoon.</p><p>Je laat ook de <em>kopie van het identiteitsbewijs</em> van die persoon zien. Je krijgt dan een extra stembiljet om in te vullen.</p>"
+        },
+        "stempasGescand": {
+          "label": "Mijn stempas gescand",
+          "title": "Stempas scannen",
+          "content": "<p><strong>Waarom wordt mijn stempas gescand?</strong></p><p>Je stempas wordt gescand om te kijken of deze geldig is. Stempassen van mensen die zijn overleden worden bijvoorbeeld ongeldig gemaakt.</p>"
+        },
+        "opWieStemIk": {
+          "label": "Op wie stem ik?",
+          "title": "Vergeten op wie te stemmen",
+          "content": "<p><strong>Wat als ik ben vergeten op wie ik wil stemmen?</strong></p><p>In elk stembureau hangt een grote kandidatenlijst op de muur. Hier kun je nog even kijken op wie je wilde stemmen.</p>"
+        },
+        "inHetKort3": {
+          "label": "In het kort",
+          "title": "Wat doe je op het stembureau?",
+          "content": "<p><strong>Wat doe je op het stembureau?</strong></p><ol><li>Je levert je stempas in.</li><li>Je laat je identiteitsbewijs zien.</li><li>Je krijgt een stembiljet.</li><li>Je brengt je stem uit.</li></ol>"
+        }
+      }
+    },
+    "inStemhokje": {
+      "title": "In het stemhokje. Wat mag?",
+      "description": "In het stemhokje open je het stembiljet. Stap 1: Zoek de partij waar je op wil stemmen. Stap 2: Zoek, bij deze partij, de persoon op wie je wil stemmen. Je stemt door het vakje voor de naam van de persoon in te kleuren. We gaan oefenen hoe dit moet.",
+      "button": "DOE",
+      "doe": {
+        "title": "Is deze stem geldig?",
+        "questions": [
+          {
+            "question": "Is deze stem geldig?",
+            "options": ["Ja", "Nee"],
+            "correct": 1,
+            "explanation": "Deze stem is niet geldig. Je mag maximaal 1 vakje inkleuren. Toch meer vakjes ingekleurd? Dan kun je een nieuw stembiljet vragen."
+          },
+          {
+            "question": "Is deze stem geldig?",
+            "options": ["Ja", "Nee"],
+            "correct": 0,
+            "explanation": "Deze stem is geldig. Er is duidelijk 1 vakje ingekleurd in de juiste kleur."
+          },
+          {
+            "question": "Is deze stem geldig?",
+            "options": ["Ja", "Nee"],
+            "correct": 1,
+            "explanation": "Deze stem is niet geldig. Heb je het verkeerde vakje ingekleurd? Dan kun je een nieuw stembiljet vragen."
+          },
+          {
+            "question": "Is de stem geldig met een blauwe kleur?",
+            "options": ["Ja", "Nee"],
+            "correct": 1,
+            "explanation": "Deze stem is niet geldig. Het vakje moet met rood ingekleurd zijn."
+          },
+          {
+            "question": "Is deze stem geldig?",
+            "options": ["Ja", "Nee"],
+            "correct": 1,
+            "explanation": "Deze stem is niet geldig. Het moet geheim blijven van wie de stem komt."
+          }
+        ]
+      },
+      "buttons": {
+        "verkeerdIngevuld": {
+          "label": "Verkeerd ingevuld",
+          "title": "Fout gemaakt",
+          "content": "<p><strong>Wat als ik een fout heb gemaakt?</strong></p><p>Als je een fout hebt gemaakt op het stembiljet, kun je bij de mensen van het stembureau een <em>nieuw stembiljet</em> vragen.</p>"
+        },
+        "inkleurenVerplicht": {
+          "label": "Inkleuren verplicht?",
+          "title": "Inkleuren verplicht",
+          "content": "<p><strong>Moet ik een vakje inkleuren?</strong></p><p>Nee, je mag je stembiljet ook inleveren zonder een vakje in te kleuren. Je stem telt dan niet mee bij de uitslag van de verkiezing, maar alleen bij de opkomst.</p>"
+        },
+        "fotoMaken": {
+          "label": "Foto maken?",
+          "title": "Foto van je stem",
+          "content": "<p><strong>Mag ik een foto maken van mijn stem?</strong></p><p>Ja, dat mag. Dit wordt ook wel een 'stemfie' genoemd. Je moet er wel voor zorgen dat je andere mensen op het stembureau <em>niet</em> op de foto zet.</p>"
+        },
+        "hulp": {
+          "label": "Hulp",
+          "title": "Hulp bij stemmen",
+          "content": "<p><strong>Mag iemand mij helpen?</strong></p><p>Dit mag als je een lichamelijke handicap hebt. Bijvoorbeeld als je blind bent.</p><p>Je kunt zelf iemand meenemen die jou kan helpen. Je kan het ook vragen aan één van de mensen van het stembureau.</p>"
+        },
+        "slechtziend": {
+          "label": "Slechtziend",
+          "title": "Slechtziend",
+          "content": "<p><strong>Wat als ik het niet goed kan zien?</strong></p><p>Elk stembureau heeft een loep, waarmee je de tekst kunt vergroten. Deze kun je vragen aan de mensen van het stembureau.</p>"
+        },
+        "inHetKort4": {
+          "label": "In het kort",
+          "title": "Belangrijk dus",
+          "content": "<p><strong>Belangrijk dus</strong></p><ul><li>Je stemt in je eentje.</li><li>Je kleurt 1 vakje in met rood.</li><li>Bij een foutje vraag je een nieuw stembiljet.</li></ul>"
+        }
+      }
+    },
+    "bijStembus": {
+      "title": "Bij de stembus. Heel simpel.",
+      "description": "Klaar in het stemhokje? Vouw dan je stembiljet weer op. Dat kan best een klus zijn. Zolang hij door de gleuf van de stembus past, is het helemaal goed.",
+      "buttons": {
+        "afvalcontainer": {
+          "label": "Afvalcontainer",
+          "title": "Afvalcontainer",
+          "content": "<p><strong>Huh? Dit is toch een afvalcontainer?</strong></p><p>Ja, daar lijkt de stembus wel heel erg op. De reden hierachter is dat het goedkoop en handig is.</p>"
+        },
+        "stembusOpenen": {
+          "label": "Stembus openen",
+          "title": "Stembus op slot",
+          "content": "<p><strong>Waarom kan ik de stembus niet gewoon open doen?</strong></p><p>De stembus zit op slot. Zo weten we zeker dat niemand er tijdens de verkiezing stembiljetten uithaalt.</p>"
+        },
+        "inHetKort5": {
+          "label": "In het kort",
+          "title": "Je stem uitbrengen",
+          "content": "<p><strong>Je stem uitbrengen</strong></p><p>Deze laatste stap is het makkelijkst. Je vouwt het stembiljet op en doet het in de stembus. Heel simpel.</p>"
+        }
+      }
+    },
+    "jeHebtGestemd": {
+      "title": "Je hebt gestemd. En nu?",
+      "description": "Hoera, je hebt gestemd! En wat nu? Na 21.00 uur 's avonds openen de medewerkers van het stembureau de stembus. Dan tellen ze alle stemmen. Eerst per partij en dan per kandidaat. Op tv en internet kun je per gemeente kijken wat de uitslag van de verkiezing is.",
+      "buttons": {
+        "stemmenTellen": {
+          "label": "Stemmen tellen",
+          "title": "Stemmen tellen",
+          "content": "<p><strong>Hoe werkt het stemmen tellen?</strong></p><p>Als je wilt kijken hoe de stemmen worden geteld, dan kun je gaan kijken. Ook kun je je aanmelden bij jouw gemeente om zelf te helpen bij het tellen van de stemmen.</p>"
+        },
+        "exitpoll": {
+          "label": "Exitpoll",
+          "title": "Exitpoll",
+          "content": "<p><strong>Wat is een exitpoll?</strong></p><p>Tijdens de verkiezing staan er soms onderzoekers bij de uitgang van het stembureau. Ze vragen dan waar mensen op hebben gestemd. Met deze informatie maken ze een schatting van de uitslag. Dat heet een exitpoll.</p>"
+        },
+        "uitslagen": {
+          "label": "Uitslagen",
+          "title": "Uitslagen vinden",
+          "content": "<p><strong>Waar kun je de uitslagen vinden?</strong></p><p>Op allerlei plekken: op tv, op de radio, op internet of in de krant. De precieze <em>uitslag van Nederland</em> vind je op de website van de Kiesraad. De <em>uitslag per stembureau</em> vind je op de website van je gemeente.</p>"
+        },
+        "inHetKort6": {
+          "label": "In het kort",
+          "title": "Gestemd!",
+          "content": "<p><strong>Gestemd!</strong></p><p>Je hebt gestemd. Na 21.00 uur worden de stemmen geteld en komt er een schatting van de uitslag. Een paar dagen later is de echte uitslag bekend!</p>"
+        }
+      }
+    }
+  },
+  "finalScreen": {
+    "congratulations": "GEFELICITEERD",
+    "subtitle": "Nu weet je hoe je kunt stemmen",
+    "success": "Veel succes",
+    "successMessage": "bij de gemeenteraadsverkiezingen op woensdag 18 maart!",
+    "ready": "Goed voorbereid naar de stembus? Klik op onderstaande knoppen.",
+    "youngVoice": "YOUNG VOICE",
+    "stemWijzer": "StemWijzer",
+    "restart": "OPNIEUW"
+  },
+  "common": {
+    "next": "Volgende",
+    "previous": "Vorige",
+    "close": "Sluiten",
+    "loading": "Laden...",
+    "check": "Controleren",
+    "reset": "Reset",
+    "correct": "Correct!",
+    "incorrect": "Onjuist",
+    "yourScore": "Je score: {{correct}}/{{total}}",
+    "submitAnswers": "Antwoorden controleren",
+    "question": "Vraag",
+    "of": "van",
+    "finish": "Afronden"
+  }
+}
