@@ -1,10 +1,10 @@
 # 🗳️ Municipal Election Translation Platform  
 ### Gemeenteraadsverkiezingen – 18 March 2026  
 
-<p align="center">
+<p  >
   <img src="./public/logo-hello.png" alt="Project Logo" width="180"/>
   &nbsp;&nbsp;&nbsp;
-  <img src="./public/prodemos.png" alt="Original Hello Breda Logo" width="180"/>
+  <img src="./public/prodemos.png" alt="Original Hello Breda Logo" width="200"/>
 </p>
 
 ---
@@ -85,6 +85,7 @@ https://stembegeleider.prodemos.nl
 
 ---
 
-## 🚀 Running the Project Locally
+## 📄 License
 
-Install dependencies:
+This project is intended for educational and accessibility purposes.  
+Please ensure proper attribution if reused or adapted.
