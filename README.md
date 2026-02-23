@@ -2,9 +2,9 @@
 ### Gemeenteraadsverkiezingen – 18 March 2026  
 
 <p  >
-  <img src="./public/logo-hello.png" alt="Project Logo" width="180"/>
+  <img src="./public/logo-hello.png" alt="Project Logo" width="200"/>
   &nbsp;&nbsp;&nbsp;
-  <img src="./public/prodemos.png" alt="Original Hello Breda Logo" width="200"/>
+  <img src="./public/prodemos.png" alt="Original Hello Breda Logo" width="180"/>
 </p>
 
 ---
