@@ -1,73 +1,90 @@
-# React + TypeScript + Vite
+# 🗳️ Municipal Election Translation Platform  
+### Gemeenteraadsverkiezingen – 18 March 2026  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src="./public/logo-hello.png" alt="Project Logo" width="180"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="./public/prodemos.png" alt="Original Hello Breda Logo" width="180"/>
+</p>
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 About The Project
 
-## React Compiler
+This project is a multilingual translation platform developed to make the **Hello Breda Municipal Election Guide** accessible to a broader audience.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The platform provides translated election information for residents who may not speak Dutch fluently. It aims to improve accessibility, understanding, and civic participation.
 
-## Expanding the ESLint configuration
+This website is a translated version of the original election guide developed by ProDemos.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Original website:  
+https://stembegeleider.prodemos.nl
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🌍 Supported Languages
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- 🇳🇱 Dutch    
+- 🇸🇦 Arabic  
+- 🇪🇷 Tigrinya  
+- 🇦🇫 Pashto  
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+The application dynamically adapts:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- Language
+- Text direction (LTR / RTL)
+- Typography per language
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+## 🎯 Project Purpose
+
+The goal of this project is to reduce language barriers in local elections by providing clear and accessible translations.
+
+It is designed to:
+
+- Increase voter awareness  
+- Support civic engagement  
+- Improve accessibility for multilingual communities  
+- Promote inclusive participation in municipal elections  
+
+---
+
+## 👥 Target Audience
+
+This platform is intended for:
+
+- Residents of Breda  
+- Migrants and newcomers  
+- Community members who prefer reading in their native language  
+- Individuals seeking simplified access to election information  
+
+---
+
+## 🛠️ Technical Stack
+
+- React  
+- TypeScript  
+- Vite  
+- i18next (Internationalization)  
+- TailwindCSS  
+- Custom Theme System (Light/Dark Mode Support)  
+
+The application supports dynamic language switching without page reload.
+
+---
+
+## ⚖️ Disclaimer
+
+This website is an independent translation project created for accessibility purposes.
+
+It is not the official election platform.  
+For official and up-to-date information, please visit:
+
+https://stembegeleider.prodemos.nl
+
+---
+
+## 🚀 Running the Project Locally
+
+Install dependencies:
