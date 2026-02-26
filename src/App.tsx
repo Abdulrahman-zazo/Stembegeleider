@@ -90,15 +90,16 @@ useEffect(() => {
         <FinalScreen onRestart={handleRestart} />
       ) : (
         <SectionView
-          sections={sectionTitles}
-          currentSectionIndex={currentSectionIndex}
-          showFinalScreen={showFinalScreen}
-          section={currentSection}
-          onNext={handleNext}
-          onPrev={handlePrev}
-          canNext={true}
-          canPrev={true}
-        />
+  key={currentSection?.id}
+  sections={sectionTitles}
+  currentSectionIndex={currentSectionIndex}
+  showFinalScreen={showFinalScreen}
+  section={currentSection}
+  onNext={handleNext}
+  onPrev={handlePrev}
+  canNext={true}
+  canPrev={true}
+/>
       )}
     </div>
   );

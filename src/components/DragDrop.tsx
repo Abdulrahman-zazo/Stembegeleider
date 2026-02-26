@@ -9,21 +9,23 @@ interface DragDropItem {
 interface MultipleChoiceProps {
   items: DragDropItem[];
   correctItems: string[];
-  
+  onComplete: () => void;
 }
 
 export const MultipleChoice: React.FC<MultipleChoiceProps> = ({
   items,
   correctItems,
-
+  onComplete,
 }) => {
-  const { i18n, t } = useTranslation();
-  const isRTL = i18n.language === 'ar';
+  const {  t } = useTranslation();
+  // const isRTL = i18n.language === 'ar';
 
   const [selectedIds, setSelectedIds] = useState<string[]>([]);
-  const [feedback, setFeedback] = useState<string>('');
+  const [checked, setChecked] = useState(false);
 
   const toggleItem = (id: string) => {
+    if (checked) return;
+
     setSelectedIds((prev) =>
       prev.includes(id)
         ? prev.filter((itemId) => itemId !== id)
@@ -31,29 +33,21 @@ export const MultipleChoice: React.FC<MultipleChoiceProps> = ({
     );
   };
 
-  const handleCheck = () => {
-    const isCorrect =
-      selectedIds.length === correctItems.length &&
-      correctItems.every((id) => selectedIds.includes(id));
+  const isCorrect =
+    selectedIds.length === correctItems.length &&
+    correctItems.every((id) => selectedIds.includes(id));
 
-    if (isCorrect) {
-      setFeedback(
-        isRTL
-          ? '✓ صحيح! لقد اخترت جميع العناصر الصحيحة.'
-          : '✓ Correct! Je hebt alle juiste items geselecteerd.'
-      );
-    } else {
-      setFeedback(
-        isRTL
-          ? '✗ ليس صحيحاً تماماً. حاول مرة أخرى.'
-          : '✗ Niet helemaal correct. Probeer het opnieuw.'
-      );
-    }
+  const handleCheck = () => {
+    setChecked(true);
   };
 
-  const handleReset = () => {
-    setSelectedIds([]);
-    setFeedback('');
+  const handleNext = () => {
+    if (isCorrect) {
+      onComplete();
+    } else {
+      setChecked(false);
+      setSelectedIds([]);
+    }
   };
 
   return (
@@ -75,37 +69,37 @@ export const MultipleChoice: React.FC<MultipleChoiceProps> = ({
         ))}
       </div>
 
-      {feedback && (
+      {checked && (
         <div
           className={`p-4 rounded-lg ${
-            feedback.includes('✓')
+            isCorrect
               ? 'bg-green-50 text-green-900'
               : 'bg-red-100 text-red-900'
           }`}
         >
-          {feedback}
+          {isCorrect
+            ? `✓ ${t('common.correct')}`
+            : `✗ ${t('common.incorrect')}`}
         </div>
       )}
 
-      <div className={`flex gap-3 ${isRTL ? 'flex-row-reverse' : ''}`}>
+      {!checked ? (
         <button
           onClick={handleCheck}
-          className="flex-1 bg-primary text-background py-3 rounded-lg hover:opacity-90 transition-opacity"
+          className="w-full bg-primary text-background py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity"
         >
-          {isRTL ? 'تحقق' : t('common.check', { defaultValue: 'Check' })}
+          {t('common.check', { defaultValue: 'Check' })}
         </button>
-
+      ) : (
         <button
-          onClick={handleReset}
-          className="flex-1 bg-secondary text-white py-3 rounded-lg hover:bg-secondary/80 transition-colors"
+          onClick={handleNext}
+          className="w-full bg-primary text-background py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity"
         >
-          {isRTL ? 'إعادة تعيين' : t('common.reset', { defaultValue: 'Reset' })}
+          {isCorrect
+            ? t('common.finish', { defaultValue: 'Finish' })
+            : t('common.retry', { defaultValue: 'Try Again' })}
         </button>
-      </div>
+      )}
     </div>
   );
 };
-
-
-
-

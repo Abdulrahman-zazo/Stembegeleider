@@ -57,6 +57,10 @@ export const WelcomeScreen: React.FC<WelcomeScreenProps> = ({ section, onNext })
         >
           {section.button.label}
         </button>
+      <div className='m-4'>
+        <p className='text-primary'>Voor meer informatie kunt u onze website bezoeken. <a href='https://hellobreda.com' target='_blank' className='text-secondary hover:underline'>
+          www.hellobreda.com</a></p>
+      </div>
       </div>
     
      </div>
