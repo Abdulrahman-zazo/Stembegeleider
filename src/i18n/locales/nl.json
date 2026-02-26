@@ -86,11 +86,10 @@
         "title": "Wat heb je nodig om te kunnen stemmen?",
         "items": {
           "stempas": "Stempas",
-          "paspoort": "Paspoort",
-          "rijbewijs": "Rijbewijs",
+          "paspoort": "paspoort, identiteitskaart of rijbewijs",
           "kandidatenlijst": "Kandidatenlijst",
           "appel": "Appel",
-          "lippenstift": "Lippenstift",
+    
           "poster": "Verkiezingsposter"
         }
       },

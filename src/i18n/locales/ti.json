@@ -86,11 +86,10 @@
         "title": "ንምርጃ ክትድምጽ ኸምዚ ነገራት የድሊካ?",
         "items": {
           "stempas": "ድምጺ ካርድ",
-          "paspoort": "ፓስፖርት",
-          "rijbewijs": "መረጋገጺ ናይ ምንቅስቓስ",
+          "paspoort": "ፓስፖርት፣ መንነት ካርድ ወይ ፍቓድ መኪና",
           "kandidatenlijst": "ናይ ክንዲዳት ዝርዝር",
           "appel": "ፖም",
-          "lippenstift": "ሊፕስቲክ",
+    
           "poster": "ፖስተር ምርጫ"
         }
       },
