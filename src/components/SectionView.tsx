@@ -46,8 +46,8 @@ export const SectionView: React.FC<SectionViewProps> = ({
     onNext();
   };
 
-  const prevButtonLabel = isRTL ? 'السابق' : 'Vorige';
-  const nextButtonLabel = isRTL ? 'التالي' : 'Volgende';
+  const prevButtonLabel = isRTL ? 'السابق' : t('common.previous');
+  const nextButtonLabel = isRTL ? 'التالي' : t('common.next');
 
   return (
     <div className="flex-1 overflow-y-auto pb-32" dir={isRTL ? 'rtl' : 'ltr'}>
