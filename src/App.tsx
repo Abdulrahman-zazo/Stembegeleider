@@ -9,6 +9,7 @@ import { FinalScreen } from '@/components/FinalScreen';
 import { getSections, getWelcomeSection } from '@/services/dataService';
 import { ThemeProvider } from '@/contexts/ThemeContext';
 import { TooltipProvider } from '@/components/ui/tooltip';
+import { Analytics } from "@vercel/analytics/next"
 import { Toaster } from 'sonner';
 
 function AppContent() {
@@ -113,6 +114,7 @@ function App() {
       <ThemeProvider defaultTheme="light">
         <TooltipProvider>
           <Toaster />
+          <Analytics/>
           <AppContent />
         </TooltipProvider>
       </ThemeProvider>
