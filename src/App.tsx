@@ -9,7 +9,7 @@ import { FinalScreen } from '@/components/FinalScreen';
 import { getSections, getWelcomeSection } from '@/services/dataService';
 import { ThemeProvider } from '@/contexts/ThemeContext';
 import { TooltipProvider } from '@/components/ui/tooltip';
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react";
 import { Toaster } from 'sonner';
 
 function AppContent() {
